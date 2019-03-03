@@ -1,0 +1,1 @@
+fun first pair = let val (a:int, b) = pair in a end

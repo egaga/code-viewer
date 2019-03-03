@@ -1,0 +1,58 @@
+h3 {
+  color:blue;
+  font-size: 15px;
+  margin-bottom: 2px;
+}
+
+.path {
+  margin-left: 20px;
+}
+
+.directory {
+  color: blue;
+}
+
+.file {
+  color: black;
+}
+
+.file:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.fileContentWrapper {
+  width: 400px;
+  padding: 0 0 0 5px;
+  margin-left: 5px;
+  border-left: 1px solid #ddd;
+}
+
+.editCode {
+  width: 99%;
+  height: 400px;
+  font-family: monospace;
+}
+
+.generatedCode {
+  composes: fileContentWrapper;
+}
+
+.console {
+  composes: fileContentWrapper;
+  line-height: 1.5em;
+  font-family: monospace;
+}
+
+.fileContent {
+  white-space: pre-wrap;
+}
+
+.codeViewer {
+  display: flex;
+}
+
+.files {
+  width: 180px;
+  padding: 5px;
+}

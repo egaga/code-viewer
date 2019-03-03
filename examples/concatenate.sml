@@ -1,0 +1,1 @@
+val combined = "Hello " ^ "there, " ^ "fellow!"  (* Concatenate strings *)
